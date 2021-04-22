@@ -1,0 +1,142 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: fantasy;
+}
+
+#Contenedor {
+	background: grey;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	/*width: 100%;
+	height: 1580px;
+	margin: 0.5em auto;
+	padding: 0.5em;*/
+}
+
+#Header {
+	min-height: 200px;
+	max-height: 200px;
+	height: 20%;
+	background: #00585A;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#imgLogo {
+	padding: 5px;
+	width: 30%;
+	float: left;
+	margin-top: 5px;
+	margin-left: 60px;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+
+#Nav {
+	float: right;
+	margin-top: 70px;
+	margin-right: 100px;
+}
+
+#a__menu {
+	padding: 5px;
+	background: grey;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 170%;
+	text-decoration: none;
+	color: black;
+}
+
+#Contenido {
+	margin-top: 0.5em;
+	border-radius: 15px;
+	height: 100px;
+}
+
+#Caja-Titulo {
+	height: 60px;
+	background: black;
+}
+
+#ImgInicio {
+	margin-left: 20px;
+	margin-top: 0.5%;
+	width: 40px;
+	float: left;
+}
+
+#CajaTitulo__h2 {
+	color: white;
+	display: inline-block;
+	float: left;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+
+#Section-Fondo {
+	border-radius: 10px;
+	height: 2600px;
+	background: black;
+	margin-top: 0.5em;
+
+}
+
+#Section_pelis {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: auto;
+}
+
+#Imagenes__pelis {
+	border: 4px solid white;
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+}
+
+#a__menu:hover {
+	background: black;
+	color: red;
+}
+
+@media screen and (max-width: 800px) {
+	#Section-Fondo {
+		height: 7780px;
+	}
+
+	#imgLogo {
+		width: 40%;
+		margin-left: 30%;
+	}
+
+
+	#Nav {
+		margin: 0 auto;
+		margin-right: 10%;
+		margin-top: 0px;
+		font-size: 90%;
+		
+	}
+
+	li {
+		padding: 5px;
+	}
+
+	
+}
